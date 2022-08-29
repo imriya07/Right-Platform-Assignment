@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    height: 120vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.countdown{
+    display: flex; 
+    font-size: 30px;
+    
+    
+} 
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.time h2{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+h1{
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 280px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: dodgerblue;
+
+}
+p{
+    font-size: 20PX;
+    margin-top: -40PX;
+    margin-left: 0px;
+    color: green;
+}
+#fname{
+    width: 370px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#phone{
+    width: 370px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#email{
+    width: 370px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+#pwd{
+    width: 370px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    background-image: linear-gradient(dodgerblue, skyblue);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+img{
+    margin-top: -470px;
+    margin-right: 300px;
+    height: 90px;
+
+}
+
+@media (max-width:400px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        width: 500px;
+    }
+    .time{
+        margin: 5px;
+    }
+    .time h2{
+        font-size: 12px;
+    }
+    .time small{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 30px;
+        margin-left: 80px;
+        font-size: 30px;
+    
+    }
+    p{
+        font-size: 13px;
+        margin-left: -80px;
+    }
+    img{
+        height: 70px;
+        margin-bottom: 20px;
+    }
+    #fname{
+        width: 220px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-right: 120px;
+    }
+    #phone{
+        width: 220px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-right: 120px;
+    }
+    #email{
+        width: 220px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-right: 120px;
+    }
+    #pwd{
+        width: 220px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-right: 120px;
+    }
+    span{
+        margin-left: -110px;
+    }
+    #me{
+        margin-right: 10px;
+    }
+    h5{
+        margin-top: -20px;
+        margin-right: 70px;
+        font-size: 20px;
+    }
+    #mess{
+        margin-left: -90px;
+        margin-top: -100px;
+    }
+    button{
+        margin-left: -90px;
+    }
+    h6{
+        font-size: 15px;
+        margin-left: -60px;
+    }
+    h4{
+        margin-top: -50px;
+        margin-left: -30px;
+    }
+    h3{
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+    .countdown{
+        margin-left: -120px;
+    }
+    
+
+}
