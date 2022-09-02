@@ -29,20 +29,11 @@ body{
     line-height: 1;
     margin: 0 0 5px;
 }
-h1{
-    margin-top: 20px;
-    margin-right: 150px;
-    margin-left: 280px;
-    font-size: 40px;
-    margin-bottom: 20px;
-    color: dodgerblue;
+img{
+    margin-top: -470px;
+    margin-right: 0px;
+    height: 100px;
 
-}
-p{
-    font-size: 20PX;
-    margin-top: -40PX;
-    margin-left: 0px;
-    color: green;
 }
 #fname{
     width: 370px;
@@ -70,6 +61,12 @@ p{
     font-size: 20px;
     border-radius: 10px;
 }
+#pwd1{
+    width: 370px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
 #pwd2332{
     width: 370px;
     height: 40px;
@@ -85,12 +82,6 @@ button{
     border: none;
     color: white;
     font-size: 15px;
-}
-img{
-    margin-top: -470px;
-    margin-right: 300px;
-    height: 90px;
-
 }
 #togglePassword{
     margin-left: -28px;
@@ -113,19 +104,10 @@ img{
     .time small{
         font-size: 10px;
     }
-    h1{
-        font-size: 30px;
-        margin-left: 80px;
-        font-size: 30px;
-    
-    }
-    p{
-        font-size: 13px;
-        margin-left: -80px;
-    }
     img{
         height: 70px;
         margin-bottom: 20px;
+        margin-left: -80px;
     }
     #fname{
         width: 220px;
@@ -155,12 +137,22 @@ img{
         border-radius: 10px;
         margin-right: 120px;
     }
+    #pwd1{
+        width: 220px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-right: 120px;
+    }
     #pwd2332{
         width: 220px;
         height: 40px;
         font-size: 20px;
         border-radius: 10px;
         margin-right: 120px;
+    }
+    #togglePassword{
+        cursor: pointer;
     }
     span{
         margin-left: -110px;
@@ -196,5 +188,4 @@ img{
         margin-left: -120px;
     }
     
-
 }
