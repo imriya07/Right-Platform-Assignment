@@ -70,6 +70,12 @@ p{
     font-size: 20px;
     border-radius: 10px;
 }
+#pwd2332{
+    width: 370px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
 button{
     width: 120px;
     height: 40px;
@@ -85,6 +91,10 @@ img{
     margin-right: 300px;
     height: 90px;
 
+}
+#togglePassword{
+    margin-left: -28px;
+    cursor: pointer;
 }
 
 @media (max-width:400px){
@@ -139,6 +149,13 @@ img{
         margin-right: 120px;
     }
     #pwd{
+        width: 220px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-right: 120px;
+    }
+    #pwd2332{
         width: 220px;
         height: 40px;
         font-size: 20px;

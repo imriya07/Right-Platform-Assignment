@@ -13,3 +13,17 @@ var x = setInterval(function() {
   document.getElementById("seconds").innerHTML = seconds
 
 }, 1000);
+
+const togglePassword = document.querySelector('#togglePassword');
+  const password = document.querySelector('#pwd');
+  const pass = document.querySelector('#pwd2332');
+
+
+  togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    pass.setAttribute('type', type);
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye-slash');
+});
